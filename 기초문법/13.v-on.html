@@ -18,7 +18,8 @@
 </head>
 <body>
 	<div id="app" v-cloak>
-		<h1>현재 값 : {{ number }}</h1>
+		<h1 v-once>현재 값 : {{ number }}</h1>
+		<h1>바뀌는 값 : {{ number }}</h1>
 		<button @click="up">증가</button>
 		<button @click="down">감소</button>
 	</div>
