@@ -63,7 +63,7 @@ if와 else의 중간 디렉티브 이다.
 # 객체
 
 # 1. **Computed**
-[[링크]](https://github.com/leeseungje/Vue/blob/master/%EA%B0%9D%EC%B2%B4/1.computed.html)
+[[링크]](https://github.com/leeseungje/Vue/blob/master/%EC%86%8D%EC%84%B1/1.computed.html)
 ## 미리 계산된 객체
 * Javascript 로 따지면 onload와 비슷 하다.
 * Javascript 에선 함수 호출을 **example()** 이런식으로 호출하지만,
