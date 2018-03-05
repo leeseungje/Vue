@@ -1,4 +1,4 @@
-# Vue 기초 문법
+# Vue.js
 링크 : [작업물](https://github.com/leeseungje/Vue/tree/master/%EA%B8%B0%EC%B4%88%EB%AC%B8%EB%B2%95)
 
 # 1. v-text
