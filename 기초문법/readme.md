@@ -3,20 +3,23 @@
 
 ## 1.v-text.html
 기본적인 텍스트를 Javascript로 입력시키는 방식 
-> <div id="app"> 
->		<h1>
->			Hello
->			<span v-text="name"></span>
->		</h1>
->	</div>
-> <script>
->		var app = new Vue ({
->			el: "#app",
->			data: {
->				name: "Vue 입니다."
->			}
->		});
->	</script>
+```
+<div id="app"> 
+  <h1>
+    Hello
+    <span v-text="name"></span>
+  </h1>
+</div>
+<script>
+  var app = new Vue ({
+    el: "#app",
+    data: {
+      name: "Vue 입니다."
+    }
+  });
+</script>
+
+```
 
 ## 2.v-html.html
 ## 3.v-show.html
