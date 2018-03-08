@@ -40,7 +40,7 @@ v-text는 텍스트 관련만 쓸 수 있다면 v-html은 html도 겸해서 쓸 
 ```
 
 ## 3.v-show.html
-해당 TAG에 나오고 안나오고를 컨트롤 할 수 있다. 이름=true or false, true = block, false = none 이렇게 .
+해당 TAG에 나오고 안나오고를 컨트롤 할 수 있다. 이름=true or false, true = block, false = none 이렇게 처리된다.
 ```
 <div id="app"> 
   <h1>
