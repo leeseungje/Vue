@@ -10,7 +10,7 @@
 > 6. 리스트 렌더링
 > 7. 이벤트 핸들링
 > 8. 폼 입력 바인딩
-> 9. 콤포넌트
+> 9. 컴포넌트
 
 ### 1. Vue 인스턴스 - The Vue Instance
 
@@ -28,4 +28,4 @@
 
 ### 8. 폼 입력 바인딩 - Form Input Bindings
 
-### 9. 콤포넌트 - Components Basics
+### 9. 컴포넌트 - Components Basics
