@@ -13,6 +13,12 @@
 > 9. 컴포넌트
 
 ### 1. Vue 인스턴스 - The Vue Instance
+모든 Vue는 **Vue** 함수로 새 인스턴스를 만드는걸로 시작 한다.
+```
+var vm = new Vue({
+	// 옵션
+})
+```
 
 ### 2. 템플릿 문법 - Template Syntax
 
