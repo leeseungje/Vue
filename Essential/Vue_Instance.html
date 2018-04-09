@@ -13,16 +13,16 @@
 <body>
 	<div id="app"> 
 		<h1>
-			
+			<my-component></my-component>
 		</h1>
 	</div>
 	<script src="https://unpkg.com/vue"></script>
 	<script>
-		var app = new Vue ({
-			el: "#app",
-			data: {
-				name: "Vue 입니다."
-			}
+		Vue.component("my-component", {
+			template: "<strong>A Custom component!</strong>"
+		})
+		new Vue({
+			el: "#app"
 		});
 	</script>
 </body>
