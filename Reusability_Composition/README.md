@@ -1,4 +1,4 @@
-# Transitions & Animation
+# Reusability & Composition
 링크 : [Vue.js](https://kr.vuejs.org/v2/guide/mixins.html)
 
 ## 목차

@@ -6,7 +6,7 @@ SPA (Single Page Application)의 속도가 빠른 프레임 워크로 Vue는 각
 그래서 처음 목표는 상단 Vue.js 부터 익히기!!!
 
 ## 목차
-### 1. Essential
+### 1. Essential - [링크](https://github.com/leeseungje/Vue/tree/master/Essential)
 - Vue 인스턴스
 - 템플릿 문법
 - 계산된 속성과 감시자
@@ -17,25 +17,25 @@ SPA (Single Page Application)의 속도가 빠른 프레임 워크로 Vue는 각
 - 폼 입력 바인딩
 - 컴포넌트
 
-### 2. Reusability & Composition
+### 2. Reusability & Composition - [링크](https://github.com/leeseungje/Vue/tree/master/Reusability_Composition)
 - 믹스인
 - 사용자 지정 디렉티브
 - Render Functions & JSX
 - 플러그인
 - 필터
 
-### 3. Tooling
+### 3. Tooling - [링크](https://github.com/leeseungje/Vue/tree/master/Tooling)
 - 프로덕션 배포 팁
 - 싱글 파일 컴포넌트
 - 단위 테스팅
 - TypeScript 지원
 
-### 4. Scaling Up - 필수
+### 4. Scaling Up - [링크](https://github.com/leeseungje/Vue/tree/master/Scaling_Up)
 - 라우팅
 - 상태 관리
 - 서버사이드 렌더링 
 
-### 5. Meta - 필수
+### 5. Meta - [링크](https://github.com/leeseungje/Vue/tree/master/Meta)
 - 다른 프레임워크와의 비교
 
-### 6. 기타
+### 6. 기타 - [링크]()
