@@ -97,7 +97,17 @@ var vm = new Vue({
 > - Vue.js는 모든 데이터 바인딩 내에서 Javascript표현식의 모든 기능 사용 가능
 > - 이때는 변순 선언 또는 조건문 사용 불가능
 
+#### 디렉티브
+**v-** 접두사가 있는 특수 속성
+**v-** 뒤에 오는 값은 단일 javascript 표현식이 됨(**v-for** 예외)
 
+** 전달 인자
+일부 디렉티브는 콜론으로 표시되는 **"전달인자"** 사용
+```
+<a v-bind:href="url"></a> // or
+<a :href="url"></a>
+```
+> - 이때 href의 속성의 **url**값을 v-bind에게 알려줌
 
 ### 3. 계산된 속성과 감시자 - Computed Properties and Watchers
 
