@@ -66,6 +66,18 @@ var vm = new Vue({
 
 ### 2. 템플릿 문법 - Template Syntax
 
+#### 보간법(Interpolation)
+> 문자열
+```
+<span>메시지: {{ msg }}</span>
+```
+> 1. Mustach 태그는 해당 데이터 객체의 **msg** 속성 값으로 대체 함
+> 2. **msg** 속성이 변결될 때 마다 갱신 된다.
+> 3. **v-once 디렉티브** 사용으로 데이터 변경 시 업데이트 되지 않는 일회성 수행 할 수 있지만, 같은 노드의 바인딩에도 영향을 끼침.
+```
+<span v-once>메시지: {{ msg }}</span>
+```
+
 ### 3. 계산된 속성과 감시자 - Computed Properties and Watchers
 
 ### 4. 클래스와 스타일 바인딩 - Class and Style Bindings
