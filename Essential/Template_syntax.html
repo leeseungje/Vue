@@ -12,19 +12,16 @@
 <title></title>
 </head>
 <body>
-	<div id="app"> 
-		<h1>
-			
-		</h1>
-	</div>
+	<!-- 문자열 -->
+	<span>메시지: {{ msg }}</span>
+
+	<!-- 원시 HTML -->
+	<div v-html="msg"></div>
+
+	<!-- 속성 -->
+	<img v-bind:src="image.jpg" />
+	<img :src="image.jpg" /><!-- v-bind생략가능 -->
+	
 	<script src="https://unpkg.com/vue"></script>
-	<script>
-		var app = new Vue ({
-			el: "#app",
-			data: {
-				name: "Vue 입니다."
-			}
-		});
-	</script>
 </body>
 </html>

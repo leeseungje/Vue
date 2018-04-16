@@ -67,16 +67,37 @@ var vm = new Vue({
 ### 2. 템플릿 문법 - Template Syntax
 
 #### 보간법(Interpolation)
-> 문자열
+**문자열**
 ```
 <span>메시지: {{ msg }}</span>
 ```
-> 1. Mustach 태그는 해당 데이터 객체의 **msg** 속성 값으로 대체 함
-> 2. **msg** 속성이 변결될 때 마다 갱신 된다.
-> 3. **v-once 디렉티브** 사용으로 데이터 변경 시 업데이트 되지 않는 일회성 수행 할 수 있지만, 같은 노드의 바인딩에도 영향을 끼침.
+> -  바인딩의 가장 기본 형태는 Mustache({{ }})를 사용한 텍스트 보간
+
+**원시 HTML**
 ```
-<span v-once>메시지: {{ msg }}</span>
+<div v-html="msg"></div>
 ```
+> - 컨텐츠는 일반 HTML 형식으로 삽입
+
+**속성
+```
+<img v-bind:src="image.jpg" /> 
+<img :src="image.jpg" /> 
+//v-bind생략가능
+```
+> - HTML 내부의 값을 데이터로 하고 싶을때
+> - Mustaches는 HTML 속성으로 사용 불가 => v-bind 사용
+
+**Javascript 표현식
+```
+{{ number + 2 }} 
+{{ ok ? 'YES' : 'NO }} 
+<div v-bind:id="'list-+' + id></div>
+```
+> - Vue.js는 모든 데이터 바인딩 내에서 Javascript표현식의 모든 기능 사용 가능
+> - 이때는 변순 선언 또는 조건문 사용 불가능
+
+
 
 ### 3. 계산된 속성과 감시자 - Computed Properties and Watchers
 
